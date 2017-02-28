@@ -1,0 +1,44 @@
+{
+  "env": {
+    "development": {
+      "application/javascript": {
+        "presets": [
+          [
+            "env",
+            {
+              "targets": {
+                "electron": "1.4.15"
+              }
+            }
+          ],
+          "react"
+        ],
+        "plugins": [
+          "transform-async-to-generator",
+          "transform-es2015-modules-commonjs"
+        ],
+        "sourceMaps": "inline"
+      }
+    },
+    "production": {
+      "application/javascript": {
+        "presets": [
+          [
+            "env",
+            {
+              "targets": {
+                "electron": "1.4.15"
+              }
+            }
+          ],
+          "react"
+        ],
+        "plugins": [
+          "transform-async-to-generator",
+          "transform-es2015-modules-commonjs"
+        ],
+        "sourceMaps": "none"
+      }
+    }
+  }
+}
