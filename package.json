@@ -60,6 +60,7 @@
         "babel-preset-env": "^1.1.10",
         "babel-preset-react": "^6.23.0",
         "electron-devtools-installer": "^2.1.0",
+        "electron-forge": "^2.8.2",
         "electron-prebuilt-compile": "1.4.15",
         "eslint": "^3.16.1",
         "eslint-config-airbnb": "^14.1.0",
